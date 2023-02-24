@@ -1,10 +1,9 @@
 package main
 
-func main() {
-	// var card string = "Ace of Spades"
-	// card := newCard()
-	// fmt.Println(card)
-	cards := newDeck()
+import "fmt"
 
-	cards.print()
+func main() {
+
+	cards := newDeck()
+	fmt.Println(cards.toString())
 }
